@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Company Clock In/Out System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Company Clock In/Out System</h1>
+    </header>
+    <main>
+      <form>
+        <label for="employee-name">Employee Name:</label>
+        <input type="text" id="employee-name" required>
+        <br><br>
+        <button id="clock-in">Clock In</button>
+        <button id="clock-out">Clock Out</button>
+      </form>
+      <br><br>
+      <table>
+        <thead>
+          <tr>
+            <th>Employee Name</th>
+            <th>Clock In Time</th>
+            <th>Clock Out Time</th>
+            <th>Total Hours</th>
+          </tr>
+        </thead>
+        <tbody id="clock-times">
+          <!-- Clock times will be inserted here -->
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <p>&copy; 2023 Company Name</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
